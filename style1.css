@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+abbr{
+    text-decoration: none   ;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 100px 100px 20px 100px;
+}
+header h1{
+    font-size: 5em;
+}
+header p{
+    padding: 30px;
+}
+header a:hover{
+    text-decoration: underline;
+}
+nav a{
+    padding: 10px;
+}
+section h1{
+    padding: 50px 30px;
+    line-height: 2.5em;
+}
+section#imagem1{
+    background: black url(imagens/background001.jpg) center top no-repeat fixed;
+    background-size: cover;
+    color: white;
+}
+section#imagem2{
+    background: black url(imagens/background002.jpg) center top no-repeat fixed;
+    background-size: cover;
+    color: white;
+}
+h1.fundo{
+    background-color: rgba(0, 0, 0, 0.500);
+    max-width: fit-content;
+    margin-left: 20px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
